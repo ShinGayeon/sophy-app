@@ -1,97 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Sophy Pole Studio
 
-# Getting Started
+폴댄스 학원 예약 및 수강권 관리 모바일 앱
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 프로젝트 소개
 
-## Step 1: Start Metro
+Sophy Pole Studio는 폴댄스 학원 수강생이 모바일에서 수업을 예약하고, 수강권을 관리하며, 예약 및 출석 내역을 확인할 수 있는 서비스입니다.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+실제 학원 운영 프로세스를 기반으로 기획한 개인 프로젝트로, React Native와 Spring Boot를 활용하여 개발을 진행하고 있습니다.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 프로젝트 정보
 
-```sh
-# Using npm
-npm start
+* 프로젝트명: Sophy Pole Studio
+* 개발 형태: 개인 프로젝트
+* 담당 역할: 기획, 프론트엔드, 백엔드
+* Frontend: React Native, TypeScript
+* Backend: Spring Boot
+* Database: MySQL
 
-# OR using Yarn
-yarn start
-```
+## 개발 진행 현황
 
-## Step 2: Build and run your app
+현재 프로젝트 초기 세팅 및 설계 단계입니다.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 완료
 
-### Android
+* 서비스 기획
+* 화면 설계(Figma)
+* 요구사항 정의
+* React Native 프로젝트 생성
+* Spring Boot 프로젝트 생성
+* 기술 스택 선정
 
-```sh
-# Using npm
-npm run android
+### 진행 예정
 
-# OR using Yarn
-yarn android
-```
+* 회원가입/로그인
+* 수업 예약 기능
+* 수강권 관리 기능
+* 예약 내역 조회
+* 푸시 알림
+* 관리자 페이지 개발
 
-### iOS
+## 주요 기능
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+* 휴대폰 본인인증 로그인
+* 수업 예약 및 취소
+* 수강권 관리
+* 예약 및 출석 내역 조회
+* 회원 정보 관리
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## 향후 목표
 
-```sh
-bundle install
-```
+* 카카오페이 / 토스페이 결제 연동
+* 강사용 기능 개발
+* 원장용 관리자 웹 개발
+* 주차 정산 API 연동(관리동과 컨택)
 
-Then, and every time you update your native dependencies, run:
+## 회고
 
-```sh
-bundle exec pod install
-```
+실제 학원 운영 환경을 고려하여 기획한 프로젝트입니다.
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+현재는 서비스 구조 설계와 개발 환경 구축을 완료하였으며, 단계적으로 기능을 구현해 나갈 예정입니다.
