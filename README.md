@@ -8,6 +8,13 @@ Sophy Pole Studio는 폴댄스 학원 수강생이 모바일에서 수업을 예
 
 실제 학원 운영 프로세스를 기반으로 기획한 개인 프로젝트로, React Native와 Spring Boot를 활용하여 개발을 진행하고 있습니다.
 
+## 디자인
+
+Figma 디자인 시안
+
+  * [Sophy Pole Studio Figma](https://www.figma.com/design/gE1aeMZRpnCDo1DfHQ3Enw/Sophy-Pole-Studio?node-id=0-1&t=n0Q8GTB0WYhvQVmq-1)
+
+
 ## 프로젝트 정보
 
 * 프로젝트명: Sophy Pole Studio
