@@ -10,9 +10,7 @@ Sophy Pole Studio는 폴댄스 학원 수강생이 모바일에서 수업을 예
 
 ## 디자인
 
-Figma 디자인 시안
-
-  * [Sophy Pole Studio Figma](https://www.figma.com/design/gE1aeMZRpnCDo1DfHQ3Enw/Sophy-Pole-Studio?node-id=0-1&t=n0Q8GTB0WYhvQVmq-1)
+[Sophy Pole Studio Figma](https://www.figma.com/design/gE1aeMZRpnCDo1DfHQ3Enw/Sophy-Pole-Studio?node-id=0-1&t=n0Q8GTB0WYhvQVmq-1)
 
 
 ## 프로젝트 정보
